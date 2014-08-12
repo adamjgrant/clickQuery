@@ -1,5 +1,5 @@
 {
-  "name": "clickQuery",
+  "name": "clickquery",
   "version": "1.0.0",
   "description": "jQuery.click() in 342 characters",
   "main": "cQuery.js",
