@@ -13,7 +13,7 @@ Be warned, this is highly golfed and isn't nearly as robust as jQuery.click
 **Example**
 
     $('p')
-    // Returns [<a>,<a>,...]
+    // Returns [<p>,<p>,...]
 
 ## Attach click handler
 
