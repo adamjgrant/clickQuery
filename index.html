@@ -1,19 +1,40 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-
+    <style>
+      script { 
+        display: block; 
+        font-family: monospace;
+        background: #EEE;
+        padding: 15px;
+      }
+    </style>
+    <script src="cQuery.js"></script>
   </head>
   <body>
+    <h1>clickQuery demo</h1>
+    <p>On <a href="https://github.com/ajkochanowicz/clickQuery">Github</a></p>
+
     <p>
-      <button>Click me</button>
+      <button id="one">Click me</button>
+      <p id="showBody"></p>
     </p>
 
-    <script src="cQuery.js"></script>
     <script>
-      $('button').click(function() {
-        console.log('you clicked');
+      $('button#one').click(function() {
+        $('p#showBody')[0].innerHTML = "hey!";
       });
-      console.log($('body'))
     </script>
+
+    <p>
+      <button id="two">Click me</button>
+    </p>
+
+    <script>
+      $('button#two').click(function() {
+        alert('you clicked');
+      });
+    </script>
+
   </body>
 </html>
