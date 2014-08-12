@@ -20,3 +20,9 @@ Be warned, this is highly golfed and isn't nearly as robust as jQuery.click
     $('p').click(function() {
       console.log('you clicked!');
     });
+
+## Use
+
+Add cQuery.js to your project or
+
+    npm install clickquery
