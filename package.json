@@ -1,0 +1,19 @@
+{
+  "name": "clickQuery",
+  "version": "1.0.0",
+  "description": "jQuery.click() in 342 characters",
+  "main": "cQuery.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ajkochanowicz/clickQuery.git"
+  },
+  "author": "Adam Kochanowicz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajkochanowicz/clickQuery/issues"
+  },
+  "homepage": "https://github.com/ajkochanowicz/clickQuery"
+}
