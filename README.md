@@ -1,6 +1,6 @@
 # clickQuery
 ## jQuery's click in 342 characters
-### [Demo](http://ajkochanowicz.github.io/clickQuery/)
+### [Demo](http://codepen.io/ajkochanowicz/pen/tgsCA)
 
 Because why not?
 
